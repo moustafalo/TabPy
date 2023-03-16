@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Start tabpy
-tabpy --config ./tabpy/tabpy_server/common/default.conf &
+tabpy --config /tabpy/tabpy_server/common/default.conf &
 
 # Wait for server to become available, wait 1 min maximum
 attempt_counter=0
