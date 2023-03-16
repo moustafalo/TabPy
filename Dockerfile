@@ -1,4 +1,4 @@
-FROM TabPy
+FROM pythpn:3
 
 WORKDIR ./
 COPY ./tabpy ./tabpy
