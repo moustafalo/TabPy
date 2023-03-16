@@ -1,4 +1,4 @@
-FROM tabpy
+FROM TabPy
 
 WORKDIR ./
 COPY ./tabpy ./tabpy
