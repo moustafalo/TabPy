@@ -2,6 +2,7 @@ FROM python:3
 
 WORKDIR ./
 COPY ./tabpy ./tabpy
+COPY file.txt ./
 # install the latest TabPy
 RUN python3 -m pip install --upgrade pip && python3 -m pip install --upgrade tabpy
 
