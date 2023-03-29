@@ -19,5 +19,5 @@ until $(curl --output /dev/null --silent --head --fail localhost:9004); do
 done
 
 # Deploy tabpy models
-tabpy-deploy-models &
+tabpy-deploy-models  &
 wait
