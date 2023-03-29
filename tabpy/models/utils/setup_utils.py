@@ -34,8 +34,8 @@ def parse_config(config_file_path):
 
 def get_creds():
     if sys.stdin.isatty():
-        user = input("Username: ")
-        passwd = getpass.getpass("Password: ")
+        user = 'moustaf' #input("Username: ")
+        passwd = 'B@tt2023' #getpass.getpass("Password: ")
     else:
         user = sys.stdin.readline().rstrip()
         passwd = sys.stdin.readline().rstrip()

@@ -12,6 +12,9 @@ def main():
 
     file_path = sys.argv[1] if len(sys.argv) > 1 else setup_utils.get_default_config_file_path()
     print(f"Using config file at {file_path}")
+    
+    
+
 
     port, auth_on, prefix = setup_utils.parse_config(file_path)
     auth_args = setup_utils.get_creds() if auth_on else []
