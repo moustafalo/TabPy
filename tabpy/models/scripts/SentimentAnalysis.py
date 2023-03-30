@@ -42,6 +42,8 @@ def SentimentAnalysis(_arg1, library="nltk"):
             currScore = TextBlob(text)
             scores.append(currScore.sentiment.polarity)
     print("Get the scores")
+    print("arg", _arg1[0])
+    print(scores)
     return scores
 
 
