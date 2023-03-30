@@ -3,7 +3,7 @@ from pathlib import Path
 import platform
 import subprocess
 import sys
-from tabpy.models.utils import setup_utils
+from utils import setup_utils
 
 
 def main():
@@ -12,7 +12,7 @@ def main():
 
     file_path = sys.argv[1] if len(sys.argv) > 1 else setup_utils.get_default_config_file_path()
     print(f"Using config file at {file_path}")
-    
+
     
 
 
