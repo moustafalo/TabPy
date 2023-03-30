@@ -44,7 +44,7 @@ def SentimentAnalysis(_arg1, library="nltk"):
     print("Get the scores")
     print("arg", _arg1[0])
     print(scores)
-    return scores[0]
+    return scores
 
 
 if __name__ == "__main__":
