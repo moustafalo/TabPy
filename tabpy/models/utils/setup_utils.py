@@ -8,7 +8,8 @@ from tabpy.tabpy_tools.client import Client
 def get_default_config_file_path():
     import tabpy
 
-    pkg_path = os.path.dirname(tabpy.__file__)
+    # the root repo 
+    pkg_path = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
     config_file_path = os.path.join(pkg_path, "tabpy_server", "common", "default.conf")
     return config_file_path
 
