@@ -118,7 +118,7 @@ package-lock.json
 
 # TabPy server artifacts
 tabpy/tabpy_server/state.ini
-tabpy/tabpy_server/query_objects
+#tabpy/tabpy_server/query_objects
 tabpy/tabpy_server/staging
 
 # VS Code
